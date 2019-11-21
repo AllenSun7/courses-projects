@@ -4,10 +4,11 @@ import math
 def andness_geo (n):
     #calculator geometric mean andness for various value of n
     #ag = (n/(n-1))-(n+1)/(n-1) * (n/(n+1))^n
-    total = 10000000000
+    total = 1000000000000000
     ag = (n/(n-1)) - (n+1)/(n-1) * (n/(n+1))**n
     ag_total = (total/(total-1)) - (total+1)/(total-1) * (total/(total+1))**total
     print("ag[G;%.2f] = %.8f" %(n, ag))
+    print("ag[G;%.2f] = %.8f" %(total, ag_total))
     print("ag[G;%.2f]/ag[G;%d] = %.8f" %(n, total, ag/ag_total))
     return 
 
