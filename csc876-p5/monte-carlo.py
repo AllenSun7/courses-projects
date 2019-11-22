@@ -15,6 +15,11 @@ def andness_geo (n):
 def andness_indicator(n, total):
     pass
 
+def power_mean(r);
+    #power_mean = ((x1**r + x2**r) / 2) ** (1/r)
+    pass
+
+
 def weight_geo(n):
     #calculator geometric mean weights for various value of n
     #wg = (n+1)/(n-1) * (n/(n+1))^n - (1/(n-1))
